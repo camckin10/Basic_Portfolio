@@ -1,15 +1,4 @@
 
-
-/*body {
-  background:gray;
-  font-size:20px;
-  font-family:'Georgia',Times, Times New Roman;
-  line-height: 34px;
-  color:#777;
-}*/
-
-/*index.html CSS*/
-
 * {
   box-sizing:border-box;
 }
@@ -22,6 +11,10 @@ body {
   color:#777;
 }
 
+#nav-section {
+  background:white;
+  padding-top:1px;
+}
 
 #titlebox {
   width:260px;
@@ -33,20 +26,21 @@ body {
   font-weight:700;
   font-size:25px;
   text-decoration:none;
+  padding-bottom:10px;
 }
 
 nav {
-  
   list-style:none;
   position:absolute;
   top:0;
   right:0;
-  
+
 }
 
 nav li {
   float:left;
   padding:9px; 
+  padding-bottom:8px;
 }
 
 a {
@@ -54,18 +48,20 @@ a {
 }
 
 /*Will the #header-links CSS still work?*/
+/*Plot twist:It totally does!*/
 #header-links{
   overflow:auto;
-  border-bottom:1px solid #ccc;
+  border-bottom: solid #ccc;
   width:100%; 
+  padding-bottom:5px;
   
 }
 
 
  /*index.html section */
 
- #about-section {
-  padding-top: 116px;  
+ #main-section {
+  padding-top: 75px;  
   padding-left:73px;
  }
  
@@ -101,20 +97,18 @@ P {
 
 /*connect with me box*/
 
-#side-content{
-  display: block;
-  width:100%;
-}
+/*cannot make connect with me boxes sync  together to actually make a box*/
 
-.icons {
-  display: inline-block;
-  max-width: 20%;
-  margin: 0 2.5%;
+#icons {
+
+
 }
 
 h2 {
   color:#4aaaa5;
 }
+
+/*end connect with me box CSS*/
 
 
 
@@ -126,20 +120,17 @@ h2 {
   border:1px solid #ddd;
   margin-bottom:20px;
 }
-
 .connect {
   list-style:none;
   position:absolute;
   top:0;
   right:0;
 }
-
 .connect:li {
   float:right;
   
   
 }
-
 /*begin footer css*/
 
 footer {
@@ -152,65 +143,53 @@ footer {
   text-align: center;
 }
 
-/*end footer css*/
-
 
 /*begin portfolio.css*/
-
-.portfolio {
+.projects {
   width:274px;
-  overflow:auto;
   position:relative;
   float:left;
-  margin: 20px 0 25px;
+  margin-left:20px;
 }
 
-/*.portfolio:nth-child(even){
-  margin-right:44px;
-}
-
-.portfolio img {
+.portfolio-image {
   width:100%;
   border:0 none;
-  opacity:0;
-}*/
+}
 
-/*.portfolio h3 {
+.projects h3 {
   border-bottom:0;
   background:#4aaaa5;
   color:#fff;
   text-align:center;
   position:absolute;
-  bottom:20px;
-  padding:15px;
   width:100%;
-  line-height:30px;
-}*/
-
-/*end portfolio.css*/
-
-/*below css is for title cards on images*/
- /*.title {
-  background-color:teal;
-  color:white;
-  display:inline;
-  padding:10.5rem;
-}*/
-
-
-/*.contact {
+  bottom:15px;
+  padding-top:20px;
   
 }
 
-p { 
- color:gray; 
+
+
+/*add contact.css AFTER portfolio.css*/
+.title-contact{
+  color:#4aaaa5;
+  font-weight: bold;
 }
 
-
-
+legend {
+  font-weight:bold;
+}
 button {
-  background-color:#4aaaa5;
-  color:white;
-  
+  background:#4aaaa5;
+  color:#eee;
+  font-weight:bold;
+  margin-top:30px;
+  font:25px sans-serif;
+  color:white;  
+}
+
+button:hover {
+  background-color:blue;
 }
 

@@ -1,14 +1,26 @@
-<!--index.html page-->
+
+  <!--index.html page-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Basic Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
 
+<!--PSUEDO CODE NOTES-->
+<!--For some reason, my index.html has different style properties/elements than the portfolio.html and contact.html. The portfolio.html and contact.html are styled the same.-->
+
+<!--I could not make nav background white such as other two html files. 
+  For coding, I did try: 
+    #nav-section{
+      background:#fff; (hex code for white)
+    }-->
+    
+
+<div id=”nav-section”>
 <header id="titlebox">
 <h1>Chelsey McKinney</h1>
 </header>
@@ -21,42 +33,38 @@
   </ul>
 </nav>
 </div> 
+ </div>
 
 
-<div id="about-section">
+<div id="main-section">
   <section class="about-me">
 <h1 class="title">About Me</h1>
-   <a href="https://placeholder.com"><img src="http://via.placeholder.com/140x100" class="bio-image"></a>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+   <a href=""><img src="assets/images/bubblegum.jpg" width="100px;" height="140px;" class="bio-image"></a>
+  <p>My name is Chelsey McKinney, and I am a Southerner living in the Twin Cities! I'm originally from Memphis, TN, but I moved to the "mini-apple" for a job working with children. I have enjoyed my time in Minneapolis, and I am enjoying things more since I have started the coding camp! 
 </p>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  <p>
+    I have two brothers: a twin brother, and an older brother. My birthday is in January, so my favorite holiday is New Year's Eve. I love how so many people style their parties with white  lights. White  lights to me, are the most beautiful. 
 </p>
   </section>
   </div>
   <!--end index.html--> 
   
+   <!--connect with me box-->
 
+   <!--Coding images in a perfect line was a challenge!-->
 
-  <!--connect with me box-->
       <div id="side-content">
   
       <h2>Connect With Me</h2>
 
-    <div class="icons">
-          <img src="assets/images/github.png">
-    </div>
+   <div id="icons">
+<div style="width:500 px">
+<div style="float:right; width:100 px">Image</div>
+<div style="float:right; width:100 px">Image</div>
+<div style="float:right; width:100 px">Image</div>
 
-    <div class="icons">
-          <img src="assets/images/linkedin.png">
-    </div>
-
-    <div class="icons">
-          <img src="assets/images/twitter.png">
-    </div>
-    
-  
+<div style="clear:both"></div>
+</div>
 </div>
 <!--end connect with me box-->
 
@@ -65,7 +73,5 @@
 </footer>
 
 
-
 </body>
 </html>
-
