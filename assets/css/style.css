@@ -63,6 +63,7 @@ a {
  #main-section {
   padding-top: 75px;  
   padding-left:73px;
+  width:100%;
  }
  
  .title {
@@ -98,9 +99,20 @@ P {
 /*connect with me box*/
 
 /*cannot make connect with me boxes sync  together to actually make a box*/
+#side-content {
+  background:#fff;
+  padding:30px;
+  height:75px;
+  max-width:278px;
+  float:right;
+  border:1px solid #ddd;
+  margin-bottom:20px; 
 
-#icons {
+}
 
+
+ul {
+   float:right;
 
 }
 
@@ -192,4 +204,7 @@ button {
 button:hover {
   background-color:blue;
 }
+
+/*insert media queries*/
+
 
